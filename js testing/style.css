@@ -1,0 +1,30 @@
+body{
+    position: relative;
+    margin: 0;
+}
+body *{
+    margin: 0 auto;
+}
+.round{
+    position: absolute;
+    color: yellow;
+    font-size: 200%;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background:rosybrown;
+    z-index: 5;
+}
+.canvas{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    background-color: yellow;
+    z-index: 0;
+    opacity: 0.5;
+
+
+}
+.text{
+    visibility: collapse;
+}

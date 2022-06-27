@@ -1,0 +1,57 @@
+<style>
+    @font-face {
+        font-family: sponge;
+        src: url("SpongeboyRegular-gx2n6.otf");
+    }
+
+    body {
+        display: flex;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+        background-color: deeppink;
+    }
+
+
+
+    .form_container {
+        width: 96%;
+        margin: auto 0;
+    }
+
+
+    input::placeholder {
+        opacity: 0.7;
+        text-align: center;
+        color: deeppink;
+    }
+
+    input {
+        margin-top: 3%;
+
+        height: 16%;
+        width: 100%;
+        color: deeppink;
+        font-size: 300%;
+        background-color: rebeccapurple;
+        border: deeppink solid 4px;
+
+
+
+    }
+
+    .credentials {
+        color: rebeccapurple;
+        font-size: 490%;
+        font-family: sponge;
+    }
+</style>
+
+
+<div class="form_container">
+<form action="post">
+    <div class="credentials">PLEASE TYPE YOUR CREDENTIALS BELOW</div>
+    <input type="text" placeholder="STUDENT EMAIL"><br>
+    <input type="text" placeholder="PASSWORD"><br>
+</form>
+</div>

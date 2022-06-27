@@ -1,0 +1,50 @@
+canvas{
+    background-color: yellowgreen;
+    width: 100%;
+    z-index: 1;
+}
+body{
+    margin: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form,audio{
+    visibility: collapse;
+}
+.final,.initial{
+    width: 20px;
+    background-color: transparent;
+    border: blue 3px solid;
+    height: 20px;
+    z-index: 4;
+    border-radius: 50%;
+    position: fixed;
+
+
+}
+.center{
+   
+    width: 500;
+    height: 500;
+     background-color: gainsboro;
+    border-radius: 50%;
+   
+    
+
+}
+.cent{
+    width:400;
+    height: 400;
+    border-radius: 50%;
+    background-color: yellow;
+    text-align: center;
+    font-size: 1300%;
+    z-index: 2;
+    display: flexbox;
+
+}
+
+
+

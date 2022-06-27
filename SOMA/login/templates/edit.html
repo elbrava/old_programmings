@@ -1,0 +1,83 @@
+<form action="" method="post">
+    <div class="comparision">
+        i wish i cared
+        <div class="selection">
+            <div class="choosen">Chosen one</div>
+            <button class="inline">
+                <div class="inline_inner">
+                    <div class="inline_innest">INline1</div>
+                    <div class="inline_innest">1</div>
+                </div>
+            </button>
+        </div>
+        about nothing
+    </div>
+    <!--
+        javascript color of inline buttton
+    form resubmission
+    input
+-->
+    <div class="edit">
+        <input type="text">
+        lorem44444
+    </div>
+</form>
+<style>
+    body {
+        margin: 0;
+        background-color: deeppink;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 120%;
+
+    }
+
+    .comparision {
+        width: 96%;
+        margin: 4% auto;
+        height: 49%;
+        overflow-y: auto;
+        
+    }
+
+    .edit {
+        width: 96%;
+        margin: 4% auto;
+        height: 49%;
+
+    }
+
+    input {
+        height: 100%;
+        width: 100%;
+        overflow-y: auto;
+        color: whitesmoke;
+        background-color: rebeccapurple;
+        border: 0;
+        border-radius: 1%;
+    }
+
+    .selection {
+        display: inline-flex;
+        flex-direction: column;
+
+    }
+
+    .inline {
+        display: flexbox;
+        background-color: grey;
+        visibility:hidden
+    }
+
+    .inline_inner {
+        display: flex;
+
+    }
+
+    .inline_innest {
+        display: flexbox;
+    }
+
+    .choosen:hover~ .inline{
+        visibility: visible;
+    }
+</style>
